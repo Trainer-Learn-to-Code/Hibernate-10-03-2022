@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM "<PATH>/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="mypack.Employee" table="Employeetablehib">  
+    <id name="id">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="firstName"></property>  
+    <property name="lastName"></property>  
+            
+  </class>  
+
+</hibernate-mapping>
